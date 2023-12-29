@@ -1,0 +1,54 @@
+{
+    "events": [
+      {"start_date":{"year":"2021","month":"2"},
+        "media": {
+          "url": "https://drive.google.com/file/d/1AXKaLQDJB3SOLJLBGwwtqRD3b8U2DWAR/view?usp=sharing",
+          "caption": "National University of Colombia</a>"
+        },
+        "text": {
+          "headline": "Business Management at National University of Colombia<br/>",
+          "text": "<br/><p>My journey begins here</a>"
+        }
+      },
+      {"start_date":{"year":"2022","month":"10"},
+        "media": {
+          "url": "https://drive.google.com/file/d/17Jf_arUo9tzfvnhL9HrsJTGwz2o_ZUB3/view?usp=sharing",
+          "caption": "Competition results: https://www.valoraanalitik.com/2022/11/10/trii-y-bvc-concurso-bolsa-millonaria-colombia/</a>"
+        },
+        "text": {
+          "headline": "Participation in millionaire bag competition on trii<br/>",
+          "text": "<br/><p>This was the first time that I was able to put into practice what I had learned so far about the financial markets. I learned many things about the stock market in Colombia and was able to get position 199 out of 2634 participants, obtaining a profit of 6.5% in one month.</a>"
+        }
+      },
+      {"start_date":{"year":"2023","month":"02"},
+        "media": {
+          "url": "https://drive.google.com/file/d/1sJZgKuA-656toJzgnPtKCbVosrCQ9IAK/view?usp=sharing",
+          "caption": "UACE team </a>"
+        },
+        "text": {
+          "headline": "Junior fixed income researcher<br/>",
+          "text": "<br/><p>I joined the university's economics analysis unit as a fixed income researcher. Here I learned many things about fixed income and together with my team we developed a research project on the viability of investing in Colombian sovereign bonds in 2023 through a macroeconomic analysis.</a>"
+        }
+      },
+      {"start_date":{"year":"2023","month":"06"},
+        "media": {
+          "url": "http://bienestar.bogota.unal.edu.co/ADJUNTOS/593_3110180204_orig_art.jpg",
+          "caption": "</a>"
+        },
+        "text": {
+          "headline": "Estimating food demand at the National University of Colombia<br/>",
+          "text": "<br/><p>This was my first data science project where I discovered my passion for data science. Performing an adequate analysis of data from past semesters and using a machine learning model, this project estimated the food demand for the second semester of 2023 in each of the university's restaurants.</a>"
+        }
+      },
+      {"start_date":{"year":"2023","month":"10"},
+        "media": {
+          "url": "https://drive.google.com/file/d/1i4D3L7c9cA_JnOSnIee_RBdEAW2_thgq/view?usp=sharing",
+          "caption": "</a>"
+        },
+        "text": {
+          "headline": "Technical analysis course with strategic focus<br/>",
+          "text": "<br/><p>After months of development, I managed to teach my first course on the use of technical analysis in financial markets at university. It was a totally satisfactory experience being able to share my knowledge. In this course I taught topics critically and based on statistics, allowing students to develop a better understanding of the topic.</a>"
+        }
+      }
+    ]
+}
