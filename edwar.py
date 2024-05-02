@@ -16,11 +16,11 @@ st.set_page_config(page_title='Edwar Valenzuela Cortés CV',layout="wide",page_i
 
 # Sidebar
 
-st.sidebar.image("Pedwar/profilepic.jpg")
+st.sidebar.image("Pedwar/linkedinprofilephoto1.jpg")
 st.sidebar.title("Business management student with a focus on data science")
 
 st.sidebar.subheader("Contact data", divider="gray")
-st.sidebar.write("📱  3146264885")
+#st.sidebar.write("📱  3146264885")
 st.sidebar.write("📧 evalenzuelac@unal.edu.co")
 st.sidebar.write("📍  Bogotá D.C")
 st.sidebar.write("🔗 LinkedIn: www.linkedin.com/in/edwar-valenzuela")
@@ -37,17 +37,17 @@ st.sidebar.subheader("Languages", divider="gray")
 st.sidebar.write("✔️ English B2")
 st.sidebar.write("✔️ Native Spanish")
 
-st.sidebar.subheader("Reference", divider="gray")
-st.sidebar.write("Carlos Osorio Ramírez")
-st.sidebar.write("Professor and researcher at the National University of Colombia")
-st.sidebar.write("📱  3002095239")
+#st.sidebar.subheader("Reference", divider="gray")
+#st.sidebar.write("Carlos Osorio Ramírez")
+#st.sidebar.write("Professor and researcher at the National University of Colombia")
+#st.sidebar.write("📱  3002095239")
 
 # =========================================================================================================
 
 # Main page
 st.title("Hello!, my name is Edwar Valenzuela Cortés. In this page you will know about my career and projects")
 st.subheader("About me")
-st.subheader("""Business management student passionate about data sciences and its strategic application in the business and economic world. With a strong management background and deep understanding of data science, I offer a unique combination of skills that drive data decision-making and data management.""")
+st.write("""Business management student passionate about data science and its strategic application in the business and economic world. With a strong management background and deep understanding of data science, I offer a unique combination of skills that drive data decision-making.""")
 
 # Timeline
 st.subheader("My career", divider="gray")
@@ -81,11 +81,10 @@ with c3:
     st.write("Project link: https://es.tradingview.com/script/SfyBCHIJ/")
 
 with c4:
-    st.header("Apple Stock price weekly prediction model")
-    st.write("News headlines about Apple Stock from Marketwatch page are useful for making weekly predictions. This project deals with extracting data from this website and processing the textual information with spacy through vectors as well as testing different classification models to predict whether the price of the asset will rise or fall weekly. The best model turns out to be the GradientBoostingClassifier, with a total precision of 60%, 55% for predicting drops and 63% for rises. ")
-    st.image("Pedwar/apple.jpg")
-    st.write("Project link: https://github.com/EdwarValDS/Apple-Stock-price-weekly-prediction-model")
-
+    st.header("Portfolio strategy builder")
+    st.write("""Optimizing a portfolio involves balancing past data usage, rebalancing frequency, and asset selection. However, relying solely on historical data may not ensure future success. This app offers a rolling window data splitting technique for simulating portfolio strategies. You can specify dataset size, test performance over periods, and determine rebalancing frequency. Backtesting is supported using historical data.""")
+    st.image("Pedwar/total_return_portada_linkedin.png")
+    st.write("Project link: https://portfolio-strategy-builder.streamlit.app/")
 
 
 # Knowledge
@@ -114,6 +113,9 @@ st.write("At National University of Colombia: Sixth semester")
 st.write("📈 Introduction to Algorithmic Trading.")
 st.write("University of Andes Course: Knowledge about development of computational models for making investment decisions in financial markets")
 
+st.write("📈 Machine learning in finance.")
+st.write("Economic Sciences Analysis Unit Course: Knowledge about use of machine learning in finance")
+
 st.write("📊 Statistical R")
 st.write("Economic Sciences Informatics Unit Course: Knowledge of using statistics for data science and analytics problems")
 
@@ -132,20 +134,23 @@ st.write("Economic Sciences Analysis Unit Course: knowledge about the different 
 st.write("📊 Professional machine learning")
 st.write("Platzi Course: knowledge about different machine learning algorithms and the way to solve different types of problems")
 
+
 # Certificates
 st.subheader("Certificates")
-a1, a2, a3, a4, a5, a6, a7 = st.columns(7)
+a1, a2, a3, a4, a5, a6, a7,a8 = st.columns(8)
 with a1:
     st.image("Pedwar/algotrading.jpg")
 with a2:
-    st.image("Pedwar/statR.jpg")
+    st.image("Pedwar/machine learning in finance.PNG")
 with a3:
-    st.image("Pedwar/valempresas.jpg")
+    st.image("Pedwar/statR.jpg")
 with a4:
-    st.image("Pedwar/nlpfundamentals.jpg")
+    st.image("Pedwar/valempresas.jpg")
 with a5:
-    st.image("Pedwar/textclassificationalgorithms.jpg")
+    st.image("Pedwar/nlpfundamentals.jpg")
 with a6:
-    st.image("Pedwar/internationalmarket.jpg")
+    st.image("Pedwar/textclassificationalgorithms.jpg")
 with a7:
+    st.image("Pedwar/internationalmarket.jpg")
+with a8:
     st.image("Pedwar/professionalml.jpg")
