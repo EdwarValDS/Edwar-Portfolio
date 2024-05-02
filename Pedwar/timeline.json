@@ -32,7 +32,7 @@
       },
       {"start_date":{"year":"2023","month":"06"},
         "media": {
-          "url": "https://drive.google.com/file/d/1EEaNxL4Hs9aUrIx91Aolr9kb4Y_e0sy-/view?usp=sharing",
+          "url": "http://bienestar.bogota.unal.edu.co/ADJUNTOS/593_3110180204_orig_art.jpg",
           "caption": "</a>"
         },
         "text": {
@@ -49,6 +49,17 @@
           "headline": "Technical analysis course with strategic focus<br/>",
           "text": "<br/><p>After months of development, I managed to teach my first course on the use of technical analysis in financial markets at university. It was a totally satisfactory experience being able to share my knowledge. In this course I taught topics critically and based on statistics, allowing students to develop a better understanding of the topic.</a>"
         }
+      },
+      {"start_date":{"year":"2024","month":"03"},
+      "media": {
+        "url": "https://drive.google.com/file/d/15phapwya5HnutekD2esNi9_i4CloKK48/view?usp=sharing",
+        "caption": "</a>"
+      },
+      "text": {
+        "headline": "Research Leader in Capital markets<br/>",
+        "text": "<br/><p>After learning many more things about data science and financial markets, I managed to reach a research leader position. At this moment my team and I are developing a research project related to the use of natural language processing techniques, sentiment analysis and machine learning for making investment decisions in the capital markets</a>"
       }
+    }
+
     ]
 }
